@@ -1,0 +1,11 @@
+print ("input prompts")
+myname=raw_input("enter your name :")
+age=input("enter your age : ")
+age=int(age)
+print(myname, "'s age is ", age*2)
+print ('%s is my name'%myname)
+itemdict = {'Name':'Joe', 'Age':32}
+print ('%(Name)s Age is %(Age)d' %(itemdict))
+print ('my name is ' + myname)
+print ('My age is ' + `age`)
+print ('My age is ' + repr(age))
